@@ -2,7 +2,7 @@ version: '3'
 
 services:
   web-page:
-    image: venetsia1/dofepapp:static
+    image: shekeriev/dofepapp:static
     ports:
       - "8080:80"
     deploy: 
